@@ -91,3 +91,6 @@ height: 400PX;
     font-size: 3.8rem;
     padding: 12px;
 }
+.h1-primary{
+    columns: auto;
+}
