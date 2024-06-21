@@ -61,7 +61,7 @@
     padding: 3px 200px;
     justify-content: center;
     align-items: center;
-height: 400PX;
+height: 400px;
 }
 #home::before{
     content: "" ;
@@ -84,6 +84,7 @@ height: 400PX;
     text-align: center;
     font-size: 1.2rem;
 
+
 }
 
 /* Utility Class */
@@ -91,6 +92,20 @@ height: 400PX;
     font-size: 3.8rem;
     padding: 12px;
 }
-.h1-primary{
-    columns: auto;
+.btn{
+    padding: 10px 20px;
+    color: white;
+    outline: none;
+    border: none;
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 15px;
+    background-color: rgba(0, 128, 0, 0.3);
+}
+.btn:hover{
+    font-weight: bolder;
+    background-color: green;
+    border: 1px solid black;
+
 }
