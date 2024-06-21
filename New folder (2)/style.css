@@ -55,7 +55,6 @@
 
 
 
-
 #home{
     display: flex;
     flex-direction: column;
@@ -74,6 +73,21 @@ height: 400PX;
     opacity: 0.89;
 
 }
+
+#home h1 {
+    color: white;
+    text-align: center;
+}
+
+#home p {
+        color: white;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+/* Utility Class */
 .h1-primary{
-    font-size: 2rem;
+    font-size: 3.8rem;
+    padding: 12px;
 }
