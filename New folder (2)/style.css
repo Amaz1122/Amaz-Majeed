@@ -42,11 +42,15 @@
     color: black;
 }
 #navbar ul li a{
-    color: black;
     display: block;
     padding: 3px 14px;
+    color: white;
+}
+#navbar ul li a:hover{
+    color: black;
     background-color: aliceblue;
     border-radius: 16px;
+    font-weight: bolder;
 }
 
 
