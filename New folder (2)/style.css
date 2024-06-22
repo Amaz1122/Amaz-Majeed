@@ -6,6 +6,7 @@
 }
 #navbar{
     position: relative;
+    top: 0px;
 }
 #navbar::before {
     content: "" ;
@@ -13,6 +14,8 @@
     background-color: black;
     width: 100%;
     height: 100%;
+    top: 0px;
+    left: 0px;
     z-index: -1;
     opacity: 0.3;
 }
@@ -61,17 +64,20 @@
     padding: 3px 200px;
     justify-content: center;
     align-items: center;
-height: 400px;
+      height: 746px;
+
 }
 #home::before{
     content: "" ;
     position: absolute;
-    background: url(img/babar.jpg) no-repeat center center/cover;
+    background: url(img/Bobzy.jpg) no-repeat center center/cover;
     width: 100%;
     height: 100%;
     z-index: -1;
     opacity: 0.89;
 
+    top: 0px;
+    left: 0px;
 }
 
 #home h1 {
@@ -83,15 +89,38 @@ height: 400px;
         color: white;
     text-align: center;
     font-size: 1.2rem;
-
-
+}
+/* Services */
+#services{
+    display: flex;
+    margin: 34px;
+}
+#services .box{
+    border: 2px solid red;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: #f7f7e9;
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
 }
 
 /* Utility Class */
-.h1-primary{
-    font-size: 3.8rem;
+.h-primary{
+    font-size: 1.8rem;
+    padding: 12px;
+    /* margin-top: 200px; */
+    font-family: bre;
+}
+
+.h-secondary{
+    font-size: 1rem;
     padding: 12px;
 }
+
 .btn{
     padding: 10px 20px;
     color: white;
@@ -108,4 +137,7 @@ height: 400px;
     background-color: green;
     border: 1px solid black;
 
+}
+.center{
+    text-align: center;
 }
